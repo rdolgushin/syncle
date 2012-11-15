@@ -1,0 +1,4 @@
+*.pyc
+build/
+dist/
+syncle.egg-info/

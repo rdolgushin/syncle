@@ -2,17 +2,28 @@
 
 import sys, os, shutil, time, yaml
 
+config_path = os.path.expanduser("~/.synclerc.yml")
 src_paths = []
 targets_dir = ""
 delay = 3
 
 def get_settings():
   global src_paths, targets_dir, delay
-  config = yaml.load(open(os.path.expanduser("~/.synclerc.yml")))
-  src_paths = config['files']
-  targets_dir = config['storage']
-  if config['delay']:
-    delay = config['delay']
+  if not os.path.exists(config_path):
+    f = open(config_path, "w")
+    if f:
+      f.close()
+      print "Syncle configuration file %s was created" % config_path
+    else:
+      sys.exit("Syncle can not create configuration file")
+  config = yaml.load(open(config_path))
+  if config:
+    if 'files' in config:
+      src_paths = config['files']
+    if 'storage' in config:
+      targets_dir = config['storage']
+    if 'delay' in config:
+      delay = config['delay']
 
 def main():
   global src_paths, targets_dir, delay

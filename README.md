@@ -7,15 +7,13 @@ This thing allows to extend standard behaviour of many cloud file synchronizatio
 Installation
 ------------
 
-### From PyPI
+Is recommended to install syncle with [pip](http://www.pip-installer.org) and [virtualenv](http://www.virtualenv.org/), but you can also use any other [method](http://wiki.python.org/moin/CheeseShopTutorial) of Python package installing.
 
-Something like
+### From PyPI
 
     pip install syncle
 
 ### From git sources
-
-Something like
 
     git clone git://github.com/rdolgushin/syncle.git
     pip install -e syncle/

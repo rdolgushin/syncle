@@ -29,4 +29,12 @@ or
 Usage
 -----
 
-After installation you can run syncle from your shell with `syncle` command.
+You can run syncle from your shell with `syncle` command.
+
+On first run syncle will create `~/.synclerc.yml` (if it does not exist). It has YAML syntax and following structure:
+
+    files:
+      - ~/.vimrc_test
+      - ~/.config_test
+    storage: ~/tmp/test
+    delay: 2

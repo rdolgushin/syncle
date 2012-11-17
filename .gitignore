@@ -2,4 +2,3 @@
 build/
 dist/
 syncle.egg-info/
-.pypirc

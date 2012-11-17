@@ -2,7 +2,7 @@ from setuptools import setup
 
 setup(
   name = 'syncle',
-  description = 'Single-file synchronization tool',
+  description = 'Single file synchronization tool',
   author = 'Roman Dolgushin',
   author_email = 'rd@roman-dolgushin.ru',
   url = 'https://github.com/rdolgushin/syncle',

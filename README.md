@@ -7,7 +7,7 @@ This thing allows to extend standard behaviour of many cloud file synchronizatio
 Installation
 ------------
 
-Is recommended to install syncle with [pip](http://www.pip-installer.org) and [virtualenv](http://www.virtualenv.org/), but you can also use any other [method](http://wiki.python.org/moin/CheeseShopTutorial) of Python package installing.
+>Is recommended to install syncle with [pip](http://www.pip-installer.org) and [virtualenv](http://www.virtualenv.org/), but you can also use any other [method](http://wiki.python.org/moin/CheeseShopTutorial) of Python package installing.
 
 ### From PyPI
 

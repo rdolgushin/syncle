@@ -18,12 +18,6 @@ Is recommended to install syncle with [pip](http://www.pip-installer.org) and [v
     git clone git://github.com/rdolgushin/syncle.git
     pip install -e syncle/
 
-or
-
-    git clone git://github.com/rdolgushin/syncle.git
-    cd syncle/
-    python setup.py install
-
 Usage
 -----
 

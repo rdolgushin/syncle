@@ -10,5 +10,12 @@ setup(
   install_requires = ['PyYAML'],
   entry_points = {
     'console_scripts': ['syncle = syncle.syncle:main']
-  }
+  },
+  classifiers = [
+    'Topic :: Utilities',
+    'Topic :: Communications :: File Sharing',
+    'Environment :: Console',
+    'License :: OSI Approved :: MIT License',
+    'Operating System :: POSIX'
+  ],
 )

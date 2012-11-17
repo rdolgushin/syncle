@@ -4,6 +4,8 @@ setup(
   name = 'syncle',
   description = 'Single-file synchronization tool',
   author = 'Roman Dolgushin',
+  author_email = 'rd@roman-dolgushin.ru',
+  url = 'https://github.com/rdolgushin/syncle',
   license = 'MIT',
   version = '0.1',
   packages = ['syncle'],

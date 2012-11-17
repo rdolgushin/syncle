@@ -34,7 +34,14 @@ You can run syncle from your shell with `syncle` command.
 On first run syncle will create `~/.synclerc.yml` (if it does not exist). It has YAML syntax and following structure:
 
     files:
-      - ~/.vimrc_test
-      - ~/.config_test
-    storage: ~/tmp/test
+      - ~/.vimrc
+      - ~/.config/openbox/rc.xml
+    storage: ~/syncle
     delay: 2
+
+where:
+
+* `files` - list of files for synchronization
+* `storage` - local directory for storing this files (usual cloud file synchronization utility folder)
+* `delay` - refreshing interval in seconds (by default - 3)
+
